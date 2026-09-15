@@ -8,7 +8,7 @@ public class snowball_game_455Target : TargetRules
 	public snowball_game_455Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+		DefaultBuildSettings = BuildSettingsVersion.V7;
 
 		ExtraModuleNames.AddRange( new string[] { "snowball_game_455" } );
 	}
