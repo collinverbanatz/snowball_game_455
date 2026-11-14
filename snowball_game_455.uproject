@@ -3,16 +3,6 @@
 	"EngineAssociation": "5.8",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "snowball_game_455",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -20,6 +10,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "RawInput",
+			"Enabled": true
 		}
 	]
 }
